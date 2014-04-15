@@ -2101,6 +2101,8 @@ let
 
   usbmuxd = callPackage ../tools/misc/usbmuxd {};
 
+  utimer = callPackage ../tools/misc/utimer {};
+
   vacuum = callPackage ../applications/networking/instant-messengers/vacuum {};
 
   vidalia = callPackage ../tools/security/vidalia { };
